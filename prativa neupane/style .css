@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 80px;
+  position: fixed;
+  top: 0;
+}
+footer {
+  position: fixed;
+  color: aqua;
+  text-align: center;
+  width: 100rem;
+  bottom: 0;
+}
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+nav {
+  background-color: rgb(56, 112, 138);
+  text-align: center;
+  width: 100rem;
+  height: 100px;
+  line-height: 9rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+nav li {
+  display: inline;
+}
+nav li a:hover {
+  color: brown;
+  transition: all 0.4s ease 0s;
+}
+
+.blog {
+  margin: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+.blog img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
